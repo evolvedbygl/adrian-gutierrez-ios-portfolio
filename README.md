@@ -1,4 +1,4 @@
-# Portfolio
+# Adrian Gutierrez — iOS Portfolio
 
 A native iOS app that **is** my professional portfolio: the SwiftUI version of
 [evolvedbygl.com/adrian](https://evolvedbygl.com/adrian). I'm Adrian Gutierrez, an iOS engineer
@@ -43,15 +43,23 @@ and forward intents. `@Observable` view models own state. Services own I/O. Ther
 
 ```text
 Portfolio/
-├── App/          PortfolioApp (composition root), AppTab (tabs + deep links)
-├── Models/       Portfolio (Codable content), SafeURL, YearMonth
-├── Services/     APIClient, PortfolioService (protocol + live + mock), PortfolioCache, AppError
-├── ViewModels/   PortfolioViewModel, ContactViewModel
-├── Views/        About / Experience / Work / Contact + Components/
-├── Design/       Colors (exact hex tokens), Typography (named roles)
-└── Resources/    Assets.xcassets, portfolio.json (bundled fallback), PrivacyInfo.xcprivacy
-PortfolioWidget/  WidgetKit extension
-PortfolioTests/   Unit tests, fixtures, mock URLProtocol
+├── App/             PortfolioApp (composition root), RootView (tab shell), AppTab (tabs + deep links)
+├── Core/            Everything the features share
+│   ├── Models/        Portfolio (Codable content), SafeURL, YearMonth
+│   ├── Services/      APIClient, PortfolioService (protocol + live + mock), PortfolioCache, AppError
+│   └── ViewModels/    PortfolioViewModel
+├── Design/          Colors (exact hex tokens), Typography (named roles)
+├── Shared/
+│   └── Components/    SectionHeader, LoadableContent, OfflineIndicator, SafariView, ScreenChrome
+├── Features/        One folder per tab, each with its own Views / ViewModels / Components
+│   ├── About/         AboutView · PortraitView, AvailabilityBadge
+│   ├── Experience/    ExperienceView · TimelineRow
+│   ├── Work/          WorkView · ProjectCard, CapabilityGroupView
+│   └── Contact/       ContactView · ContactViewModel · ContactButton
+└── Resources/       Assets.xcassets, portfolio.json (bundled fallback), PrivacyInfo.xcprivacy
+PortfolioWidget/   WidgetKit extension
+PortfolioTests/    Mirrors the app: Core/, Features/, App/, plus Support/ (mock URLProtocol) and Fixtures/
+Scripts/           Release tooling (archive + TestFlight upload); no credentials in the repo
 ```
 
 ### The content fallback chain
