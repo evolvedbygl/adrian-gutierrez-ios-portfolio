@@ -1,0 +1,17 @@
+# Xcode
+build/
+DerivedData/
+*.xcuserstate
+xcuserdata/
+*.xcscmblueprint
+*.xccheckout
+
+# macOS
+.DS_Store
+
+# Swift Package Manager (no dependencies, but ignore local state)
+.swiftpm/
+.build/
+
+# Test output
+*.xcresult

@@ -1,0 +1,58 @@
+{
+  "name": "Test Person",
+  "headline": "Fixture Engineer",
+  "tagline": "A sample document used by the unit tests.",
+  "availability": "Open to testing",
+  "about": ["First paragraph.", "Second paragraph."],
+  "experience": [
+    {
+      "title": "Senior Fixture Author",
+      "company": "Example Co",
+      "detail": "Contractor · Remote",
+      "summary": "Wrote fixtures.",
+      "startDate": "2021-10",
+      "endDate": "2026-06",
+      "bullets": ["Wrote a thing.", "Wrote another thing."]
+    },
+    {
+      "title": "Current Role",
+      "company": "Another Co",
+      "startDate": "2026-06",
+      "bullets": []
+    },
+    {
+      "title": "Degree",
+      "company": "Some University",
+      "endDate": "2020-12"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Alpha",
+      "description": "First project.",
+      "status": "Live",
+      "linkLabel": "App Store",
+      "linkURL": "https://example.com/alpha"
+    },
+    {
+      "name": "Beta",
+      "description": "Second project, no link.",
+      "linkLabel": "",
+      "linkURL": ""
+    }
+  ],
+  "capabilityGroups": [
+    { "title": "Apple platforms", "items": ["Swift & SwiftUI", "WidgetKit"] }
+  ],
+  "beforeSoftware": ["A short origin story."],
+  "contact": {
+    "email": "person@example.com",
+    "phone": "850-555-0100",
+    "linkedIn": "https://www.linkedin.com/in/example",
+    "github": "https://github.com/example",
+    "website": "https://example.com/person",
+    "message": "Say hello.",
+    "location": "Nowhere, FL"
+  },
+  "someFutureField": { "ignored": true }
+}

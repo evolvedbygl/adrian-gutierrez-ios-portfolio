@@ -1,0 +1,104 @@
+{
+  "name": "Adrian Gutierrez",
+  "headline": "iOS Engineer",
+  "tagline": "Founder of Gold Life LLC and native Apple-platform engineer. A decade of tradesman grit and five years of Swift, SwiftUI, and UIKit, handcrafting software to the Gold Standard.",
+  "availability": "Open to iOS roles",
+  "about": [
+    "I got tired of fragmented apps, cluttered interfaces, and software that told me how I should work. So I started building my own. I am a creator at heart, and this ecosystem is my lifelong endeavor: a living environment I keep refining to run my own business and my own life.",
+    "I believe digital tools shouldn't just be functional; they should feel premium. Everything I build is held to a standard of care that I think of as the digital equivalent of a perfectly laid tile floor: clean lines, zero hidden defects, and a foundation built to last.",
+    "I am an owner-operator in the truest sense. There is no corporate wall. Every app I build has a direct line to me, and I take responsibility for each product from conception and architecture through interface design, App Store release, and ongoing reliability."
+  ],
+  "experience": [
+    {
+      "title": "iOS Engineer",
+      "company": "Open Path Products LLC",
+      "detail": "Contractor to Charles Schwab · Remote",
+      "summary": "Worked on customer-facing Apple-platform experiences inside a large financial-services environment, collaborating across engineering, product, and stakeholder teams.",
+      "startDate": "2021-10",
+      "endDate": "2026-06",
+      "bullets": [
+        "One of two developers who built the Charles Schwab Apple Watch app, responsible for the UI side.",
+        "Led its podcast feature from kickoff to the App Store within a quarter.",
+        "Presented live product demos to product owners and stakeholders for production approval.",
+        "Created onboarding documentation and led internal trainings (a crypto session for about 80 employees, Apple Watch, and widgets)."
+      ]
+    },
+    {
+      "title": "Independent iOS Developer",
+      "company": "Gold Life LLC",
+      "detail": "Founder · Personal projects",
+      "summary": "Designing, building, testing, and shipping native apps across business management, personal finance, and a home-services marketplace. Taking full responsibility for every product beyond the code editor.",
+      "startDate": "2026-06",
+      "bullets": []
+    },
+    {
+      "title": "A.S. Mobile Development",
+      "company": "Full Sail University",
+      "detail": "Associate of Science",
+      "summary": "A focused foundation in native mobile development that turned an early interest in game development into a broader commitment to building useful, polished software.",
+      "endDate": "2020-12",
+      "bullets": []
+    }
+  ],
+  "projects": [
+    {
+      "name": "My Business",
+      "description": "A business-management app shaped by the day-to-day reality of running a small company. The work spans product design, native iOS development, account systems, release management, and ongoing reliability improvements.",
+      "status": "Live on the App Store",
+      "linkLabel": "Learn more",
+      "linkURL": "https://software.evolvedbygl.com/my-business"
+    },
+    {
+      "name": "My Money",
+      "description": "A personal-finance app designed to make connected financial information feel useful instead of overwhelming. The product explores secure account linking, transaction understanding, recurring activity, and a clear native interface.",
+      "status": "In TestFlight",
+      "linkLabel": "Learn more",
+      "linkURL": "https://software.evolvedbygl.com/my-money"
+    },
+    {
+      "name": "Kitchen & Bath",
+      "description": "A home-services marketplace concept that turns complex renovation work into understandable, packaged projects. It draws directly from experience installing tile, estimating jobs, sourcing materials, and speaking with customers.",
+      "status": "In development",
+      "linkLabel": "Learn more",
+      "linkURL": "https://kitchenandbath.evolvedbygl.com/"
+    }
+  ],
+  "capabilityGroups": [
+    {
+      "title": "Apple platforms",
+      "items": ["Swift & SwiftUI", "UIKit", "watchOS", "Widgets", "visionOS exploration"]
+    },
+    {
+      "title": "Product engineering",
+      "items": ["Feature discovery", "Interface architecture", "API integration", "App Store delivery", "Production debugging"]
+    },
+    {
+      "title": "Team leverage",
+      "items": ["Stakeholder demos", "Technical training", "Onboarding docs", "Cross-functional work", "Clear risk communication"]
+    },
+    {
+      "title": "Independent building",
+      "items": ["Product scoping", "UX decisions", "Identity & accounts", "TestFlight iteration", "Customer perspective"]
+    },
+    {
+      "title": "Engineering foundations",
+      "items": ["State management", "Networking", "Secure identity flows", "Testing discipline", "Debugging under pressure"]
+    },
+    {
+      "title": "Learning edge",
+      "items": ["Platform evolution", "Spatial computing", "AI-assisted features", "Backend systems", "Cross-platform perspective"]
+    }
+  ],
+  "beforeSoftware": [
+    "Long before I wrote my first line of Swift, I spent a decade running my own tile and flooring business across Florida's Emerald Coast and Panhandle, from Panama City Beach to Pensacola. That trade taught me respect for the customer's home, the discipline of substrate preparation, and the pride of building something permanent. That same tradesman's grit is in every line of software I write."
+  ],
+  "contact": {
+    "email": "adrian93box@gmail.com",
+    "phone": "850-363-3330",
+    "linkedIn": "https://www.linkedin.com/in/adrian93gutierrez",
+    "github": "https://github.com/Adrian93Box",
+    "website": "https://evolvedbygl.com/adrian",
+    "message": "Let's build something worth relying on. Native Apple-platform software with a focus on product judgment, reliable architecture, and end-to-end craft.",
+    "location": "Tallahassee, FL"
+  }
+}
