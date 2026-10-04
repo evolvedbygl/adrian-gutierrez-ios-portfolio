@@ -15,3 +15,10 @@ xcuserdata/
 
 # Test output
 *.xcresult
+
+# Local release credentials (never commit)
+Scripts/.asc.env
+*.p8
+*.p12
+*.mobileprovision
+ExportOptions.plist
