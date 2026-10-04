@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A987931A843C1F3F18365967"
+               BlueprintIdentifier = "FFFDC363B9DDB54C00A19162"
                BuildableName = "Portfolio.app"
                BlueprintName = "Portfolio"
                ReferencedContainer = "container:Portfolio.xcodeproj">
@@ -31,7 +31,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A987931A843C1F3F18365967"
+            BlueprintIdentifier = "FFFDC363B9DDB54C00A19162"
             BuildableName = "Portfolio.app"
             BlueprintName = "Portfolio"
             ReferencedContainer = "container:Portfolio.xcodeproj">
@@ -42,7 +42,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3E7B5B46F32005A45E3145D2"
+               BlueprintIdentifier = "218F279AD68E9AEFF241BF14"
                BuildableName = "PortfolioTests.xctest"
                BlueprintName = "PortfolioTests"
                ReferencedContainer = "container:Portfolio.xcodeproj">
@@ -64,7 +64,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A987931A843C1F3F18365967"
+            BlueprintIdentifier = "FFFDC363B9DDB54C00A19162"
             BuildableName = "Portfolio.app"
             BlueprintName = "Portfolio"
             ReferencedContainer = "container:Portfolio.xcodeproj">
@@ -81,7 +81,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A987931A843C1F3F18365967"
+            BlueprintIdentifier = "FFFDC363B9DDB54C00A19162"
             BuildableName = "Portfolio.app"
             BlueprintName = "Portfolio"
             ReferencedContainer = "container:Portfolio.xcodeproj">
