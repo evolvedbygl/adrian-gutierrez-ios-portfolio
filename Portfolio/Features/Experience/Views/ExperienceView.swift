@@ -30,7 +30,6 @@ struct ExperienceView: View {
             }
             .navigationTitle("Experience")
             .navigationBarTitleDisplayMode(.large)
-            .offlineIndicator(viewModel.isShowingOfflineContent)
         }
     }
 

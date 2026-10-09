@@ -30,7 +30,6 @@ struct ContactView: View {
             }
             .navigationTitle("Contact")
             .navigationBarTitleDisplayMode(.large)
-            .offlineIndicator(viewModel.isShowingOfflineContent)
             .safariSheet(item: $model.webDestination)
             .alert(
                 "Can't Open",
@@ -99,8 +98,7 @@ struct ContactView: View {
 
     private func shareLink(website: URL, portfolio: Portfolio) -> some View {
         let title = portfolio.firstName.isEmpty ? "Share portfolio" : "Share \(portfolio.firstName)'s portfolio"
-        let previewTitle = portfolio.name.isBlank ? "Portfolio" : "\(portfolio.name) · \(portfolio.headline)"
-        return ShareLink(item: website, preview: SharePreview(previewTitle)) {
+        return ShareLink(item: website) {
             ContactRowLabel(
                 title: title, detail: website.displayString,
                 systemImage: "square.and.arrow.up", trailingImage: "arrow.up.right"

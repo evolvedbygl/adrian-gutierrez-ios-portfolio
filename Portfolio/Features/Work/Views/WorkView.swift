@@ -31,7 +31,6 @@ struct WorkView: View {
             }
             .navigationTitle("Work")
             .navigationBarTitleDisplayMode(.large)
-            .offlineIndicator(viewModel.isShowingOfflineContent)
             .safariSheet(item: $webDestination)
         }
     }

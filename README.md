@@ -50,7 +50,7 @@ Portfolio/
 │   └── ViewModels/    PortfolioViewModel
 ├── Design/          Colors (exact hex tokens), Typography (named roles)
 ├── Shared/
-│   └── Components/    SectionHeader, LoadableContent, OfflineIndicator, SafariView, ScreenChrome
+│   └── Components/    SectionHeader, LoadableContent, SafariView, ScreenChrome
 ├── Features/        One folder per tab, each with its own Views / ViewModels / Components
 │   ├── About/         AboutView · PortraitView, AvailabilityBadge
 │   ├── Experience/    ExperienceView · TimelineRow
@@ -83,8 +83,8 @@ without shipping a new build.
 - **On launch** the view model shows the best *local* copy immediately (cache, else bundle), then
   refreshes from the network in the background, so there is never a spinner when content exists.
   Pull-to-refresh on the About tab re-runs the same refresh.
-- **Failures are silent by design.** Connectivity problems never produce an error screen; the only
-  signal is the subtle offline pill. The error and retry screen exists only for the (practically
+- **Failures are silent by design.** Connectivity problems never produce an error screen.
+  The error and retry screen exists only for the (practically
   impossible) case where the network, cache and bundle are *all* unusable.
 - **The cache never holds bad data.** A remote payload is cached only after it decodes *and*
   contains something to show (so a `{}` or an HTML error page can't replace good content). A cached

@@ -191,8 +191,6 @@ final class PortfolioViewModelTests: XCTestCase {
 
         // Shared Components & SafariView
         renderView(EmptySectionView(title: "Empty", message: "No items", systemImage: "tray"))
-        renderView(Text("Test").offlineIndicator(true))
-        renderView(Text("Test").offlineIndicator(false))
         renderView(SectionHeader(title: "Header"))
         let safari = SafariView(url: URL(string: "https://evolvedbygl.com")!)
         renderView(safari)
