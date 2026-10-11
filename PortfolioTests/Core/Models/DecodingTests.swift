@@ -156,9 +156,9 @@ final class DecodingTests: XCTestCase {
         let contact = try PortfolioCoding.decode(try provider.data()).contact
 
         XCTAssertEqual(contact.mailURL?.absoluteString, "mailto:software@evolvedbygl.com")
-        XCTAssertEqual(contact.phoneURL?.absoluteString, "tel:8503633330")
+        XCTAssertEqual(contact.phoneURL?.absoluteString, "tel:8503704979")
         XCTAssertEqual(contact.linkedInURL?.absoluteString, "https://www.linkedin.com/in/adrian93gutierrez")
-        XCTAssertEqual(contact.githubURL?.absoluteString, "https://github.com/Adrian93Box")
+        XCTAssertEqual(contact.githubURL?.absoluteString, "https://github.com/evolvedbygl")
         XCTAssertEqual(contact.websiteURL?.absoluteString, "https://evolvedbygl.com/adrian")
     }
 

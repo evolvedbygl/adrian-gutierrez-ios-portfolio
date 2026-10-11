@@ -6,7 +6,7 @@ final class SafeURLTests: XCTestCase {
     // MARK: Web
 
     func testWebAcceptsHTTPAndHTTPS() {
-        XCTAssertEqual(SafeURL.web(from: "https://github.com/Adrian93Box")?.absoluteString, "https://github.com/Adrian93Box")
+        XCTAssertEqual(SafeURL.web(from: "https://github.com/evolvedbygl")?.absoluteString, "https://github.com/evolvedbygl")
         XCTAssertNotNil(SafeURL.web(from: "http://example.com"))
         XCTAssertNotNil(SafeURL.web(from: "  https://example.com/path  "))
         XCTAssertNotNil(SafeURL.web(from: "HTTPS://EXAMPLE.COM"))
@@ -36,9 +36,9 @@ final class SafeURLTests: XCTestCase {
     // MARK: Phone
 
     func testPhoneKeepsDigitsOnly() {
-        XCTAssertEqual(SafeURL.phone(from: "850-363-3330")?.absoluteString, "tel:8503633330")
-        XCTAssertEqual(SafeURL.phone(from: "(850) 363-3330")?.absoluteString, "tel:8503633330")
-        XCTAssertEqual(SafeURL.phone(from: "+1 850 363 3330")?.absoluteString, "tel:+18503633330")
+        XCTAssertEqual(SafeURL.phone(from: "850-370-4979")?.absoluteString, "tel:8503704979")
+        XCTAssertEqual(SafeURL.phone(from: "(850) 370-4979")?.absoluteString, "tel:8503704979")
+        XCTAssertEqual(SafeURL.phone(from: "+1 850 370 4979")?.absoluteString, "tel:+18503704979")
     }
 
     func testPhoneRejectsImplausibleNumbers() {
@@ -52,7 +52,7 @@ final class SafeURLTests: XCTestCase {
     func testDisplayStringStripsSchemeWwwAndTrailingSlash() throws {
         let linkedIn = try XCTUnwrap(URL(string: "https://www.linkedin.com/in/adrian93gutierrez/"))
         XCTAssertEqual(linkedIn.displayString, "linkedin.com/in/adrian93gutierrez")
-        let github = try XCTUnwrap(URL(string: "https://github.com/Adrian93Box"))
-        XCTAssertEqual(github.displayString, "github.com/Adrian93Box")
+        let github = try XCTUnwrap(URL(string: "https://github.com/evolvedbygl"))
+        XCTAssertEqual(github.displayString, "github.com/evolvedbygl")
     }
 }

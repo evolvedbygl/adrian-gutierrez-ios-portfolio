@@ -5,7 +5,7 @@ import XCTest
 final class ContactViewModelTests: XCTestCase {
     private let contact = Contact(
         email: "a@example.com",
-        phone: "850-363-3330",
+        phone: "850-370-4979",
         linkedIn: "https://www.linkedin.com/in/example",
         github: "https://github.com/example"
     )
@@ -37,7 +37,7 @@ final class ContactViewModelTests: XCTestCase {
             completion(true)
         }
 
-        XCTAssertEqual(opened.value.map(\.absoluteString), ["mailto:a@example.com", "tel:8503633330"])
+        XCTAssertEqual(opened.value.map(\.absoluteString), ["mailto:a@example.com", "tel:8503704979"])
         XCTAssertNil(viewModel.alertMessage)
         XCTAssertNil(viewModel.webDestination)
     }
@@ -72,7 +72,7 @@ final class ContactViewModelTests: XCTestCase {
 
     func testHasAnyAction() {
         XCTAssertFalse(Contact().hasAnyAction)
-        XCTAssertTrue(Contact(phone: "850-363-3330").hasAnyAction)
+        XCTAssertTrue(Contact(phone: "850-370-4979").hasAnyAction)
         XCTAssertFalse(Contact(email: "nope", linkedIn: "javascript:1").hasAnyAction)
     }
 }
