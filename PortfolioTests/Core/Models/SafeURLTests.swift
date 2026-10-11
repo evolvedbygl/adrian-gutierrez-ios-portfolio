@@ -22,7 +22,7 @@ final class SafeURLTests: XCTestCase {
     // MARK: Mail
 
     func testMailBuildsMailtoURL() {
-        XCTAssertEqual(SafeURL.mail(from: "adrian93box@gmail.com")?.absoluteString, "mailto:adrian93box@gmail.com")
+        XCTAssertEqual(SafeURL.mail(from: "software@evolvedbygl.com")?.absoluteString, "mailto:software@evolvedbygl.com")
         XCTAssertEqual(SafeURL.mail(from: " a.b+tag@example.co.uk ")?.scheme, "mailto")
     }
 

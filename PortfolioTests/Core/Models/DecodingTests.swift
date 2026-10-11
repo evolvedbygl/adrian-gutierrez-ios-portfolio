@@ -155,7 +155,7 @@ final class DecodingTests: XCTestCase {
         let provider = BundleContentProvider(bundle: Bundle(for: PortfolioViewModel.self))
         let contact = try PortfolioCoding.decode(try provider.data()).contact
 
-        XCTAssertEqual(contact.mailURL?.absoluteString, "mailto:adrian93box@gmail.com")
+        XCTAssertEqual(contact.mailURL?.absoluteString, "mailto:software@evolvedbygl.com")
         XCTAssertEqual(contact.phoneURL?.absoluteString, "tel:8503633330")
         XCTAssertEqual(contact.linkedInURL?.absoluteString, "https://www.linkedin.com/in/adrian93gutierrez")
         XCTAssertEqual(contact.githubURL?.absoluteString, "https://github.com/Adrian93Box")
